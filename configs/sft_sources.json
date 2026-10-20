@@ -1,0 +1,27 @@
+{
+  "manual": [
+    {
+      "path": "data/manual/persona_qa_v2.jsonl",
+      "repeat": 6
+    },
+    {
+      "path": "data/manual/persona_qa.jsonl",
+      "repeat": 6
+    }
+  ],
+  "generated": [
+    {
+      "path": "data/processed/synth_persona_v2.filtered.jsonl",
+      "min_words": 2
+    },
+    {
+      "path": "data/processed/manual_paraphrases.jsonl",
+      "min_words": 1
+    }
+  ],
+  "include_scene_pairs": true,
+  "scene_min_words": 4,
+  "val_fraction": 0.07,
+  "test_fraction": 0.07,
+  "seed": 7
+}

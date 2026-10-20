@@ -1,0 +1,9 @@
+.venv/
+data/*
+!data/manual/
+!data/manual/*.jsonl
+checkpoints/
+__pycache__/
+*.pyc
+.env
+dist/

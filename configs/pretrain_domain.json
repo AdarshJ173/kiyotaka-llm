@@ -1,0 +1,18 @@
+{
+  "stage": "domain_pretrain",
+  "data": "data/processed/domain_all.bin",
+  "val_data": "data/processed/cote_val.bin",
+  "init": "checkpoints/pretrain/best.pt",
+  "steps": 220,
+  "batch_size": 16,
+  "grad_accum": 2,
+  "block_size": 512,
+  "dropout": 0.1,
+  "lr": 0.00015,
+  "min_lr": 1.5e-05,
+  "warmup": 30,
+  "weight_decay": 0.1,
+  "eval_interval": 40,
+  "eval_iters": 15,
+  "save_interval": 100
+}

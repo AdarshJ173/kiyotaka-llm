@@ -1,0 +1,9 @@
+torch>=2.11
+numpy
+tokenizers
+transformers>=4.46
+huggingface_hub
+safetensors
+pyarrow
+requests
+tqdm

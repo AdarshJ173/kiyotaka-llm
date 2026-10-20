@@ -1,0 +1,22 @@
+{
+  "stage": "general_pretrain_56m",
+  "data": "data/processed/general_train.bin",
+  "val_data": "data/processed/general_val.bin",
+  "steps": 3200,
+  "batch_size": 8,
+  "grad_accum": 4,
+  "block_size": 512,
+  "n_layer": 10,
+  "n_head": 10,
+  "n_kv_head": 5,
+  "n_embd": 640,
+  "intermediate_size": 1792,
+  "dropout": 0.0,
+  "lr": 5e-4,
+  "min_lr": 5e-5,
+  "warmup": 200,
+  "weight_decay": 0.1,
+  "eval_interval": 250,
+  "eval_iters": 20,
+  "save_interval": 1000
+}

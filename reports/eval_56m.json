@@ -1,0 +1,340 @@
+{
+  "n_prompts": 60,
+  "checkpoint": "checkpoints/sft_56m/best.pt",
+  "sft": {
+    "perplexity_test": {
+      "loss": 3.471387195587158,
+      "ppl": 32.181353326913815
+    },
+    "style": {
+      "n": 60,
+      "mean_words": 9.3,
+      "median_words": 8.0,
+      "p90_words": 16.1,
+      "mean_sentences": 2.35,
+      "question_rate": 0.0,
+      "exclamation_rate": 0.0,
+      "first_person_per_reply": 0.6666666666666666,
+      "hedge_per_reply": 0.0,
+      "certain_per_reply": 0.31666666666666665,
+      "emotion_per_reply": 0.0,
+      "distinct_1": 0.35752212389380533,
+      "distinct_2": 0.5821782178217821,
+      "trigram_repeat_rate": 0.0,
+      "vocab_size": 202,
+      "term_char_rate": 1.0
+    },
+    "samples": [
+      {
+        "prompt": "Maybe everyone's worldviews form differently based on experiences and people they've interacted with over time.",
+        "reply": "The others have a lot of power to read the situation.",
+        "reference": "I want to know what happened that formed that worldview of yours."
+      },
+      {
+        "prompt": "Should I apologize?",
+        "reply": "Only if it fails.",
+        "reference": "If it changes the outcome."
+      },
+      {
+        "prompt": "That's the best version of yourself yet. What makes you unique?",
+        "reply": "I'd sacrifice a piece to win. People decide whether they're pieces.",
+        "reference": "The person you are now"
+      },
+      {
+        "prompt": "Talk about your background.",
+        "reply": "I have people I find useful. Friendship is a different word.",
+        "reference": "There's nothing about it worth your time."
+      },
+      {
+        "prompt": "I never realized being outdoors could lead to sickness so quickly. How did you know?",
+        "reply": "The first girl's group of people who were more than she thought.",
+        "reference": "You'll catch a cold just standing there."
+      },
+      {
+        "prompt": "It's hard to see eye to eye with someone who seems so different. How do you handle conflicts with classmates?",
+        "reply": "I'm still on the side that wins.",
+        "reference": "Even though I'm an enemy from another class?"
+      },
+      {
+        "prompt": "How do you view Kushida?",
+        "reply": "I expect she's changed.",
+        "reference": "Two people wearing one face. Useful if you know which one is talking."
+      },
+      {
+        "prompt": "Do you believe anything is truly abstract?",
+        "reply": "I'm sure Sud\u014d will be at least.",
+        "reference": "That's a very abstract concept."
+      },
+      {
+        "prompt": "How do you view Ryuen?",
+        "reply": "He carries the class. Someone has to.",
+        "reference": "He mistakes fear for control."
+      },
+      {
+        "prompt": "What suggestions do you have?",
+        "reply": "I have people I find useful. Friendship is a different word.",
+        "reference": "Decide what you're willing to lose. Then act."
+      },
+      {
+        "prompt": "What does Kiky\u014d do after catching Kiyotaka watching her tantrum?",
+        "reply": "He carries the class and they move to a new one-on-one. He makes it hard for him to participate in the future.",
+        "reference": "She threatens to tell everyone about it unless he stops watching her."
+      },
+      {
+        "prompt": "Describe Y\u014dsuke.",
+        "reply": "Kiky\u014d Ayanok\u014dji. Class 1-C. Kakeru is a blameworthy and reprehensible person who loves causing trouble for others, possesses a sadistic nature, and is very ruthless.",
+        "reference": "Y\u014dsuke Hirata. Class 1-D. Y\u014dsuke exudes a very mature and great friendly vibe in the presence of other people and is rarely seen getting mad."
+      },
+      {
+        "prompt": "What's your goal for being part of this group?",
+        "reply": "I'm glad we exchanged contact information.",
+        "reference": "Don't forget, the purpose of this organization"
+      },
+      {
+        "prompt": "Do you always believe your own words mean what you say they do?",
+        "reply": "I'm sure you're not that strong.",
+        "reference": "It means just what it says."
+      },
+      {
+        "prompt": "That's very true. Everyone has their unique way of making a mark on the world.",
+        "reply": "I'm glad we exchanged contact information.",
+        "reference": "I think that's something only shining people like you can do."
+      }
+    ],
+    "judge": {
+      "n": 60,
+      "fidelity": 3.066666666666667,
+      "coherence": 3.2666666666666666
+    }
+  },
+  "base": {
+    "perplexity_test": {
+      "loss": 3.230481662750244,
+      "ppl": 25.291836172963258
+    },
+    "style": {
+      "n": 60,
+      "mean_words": 15.6,
+      "median_words": 7.0,
+      "p90_words": 60.1,
+      "mean_sentences": 2.8833333333333333,
+      "question_rate": 0.016666666666666666,
+      "exclamation_rate": 0.05,
+      "first_person_per_reply": 0.8333333333333334,
+      "hedge_per_reply": 0.15,
+      "certain_per_reply": 0.26666666666666666,
+      "emotion_per_reply": 0.0,
+      "distinct_1": 0.3392857142857143,
+      "distinct_2": 0.7600896860986547,
+      "trigram_repeat_rate": 0.008413461538461538,
+      "vocab_size": 323,
+      "term_char_rate": 0.8666666666666667
+    },
+    "samples": [
+      {
+        "prompt": "Maybe everyone's worldviews form differently based on experiences and people they've interacted with over time.",
+        "reply": "The moment the first-year students began to participate, one of them held back in a \"desting game\" attitude, with the first-years being the leader of each other, agreeing that a student was only martial among themselves, and a few of them are also not expelled. This is the last question which means someone who can understand the truth or their feelings, and how even if they get close to others, they might be willing to do it any",
+        "reference": "I want to know what happened that formed that worldview of yours."
+      },
+      {
+        "prompt": "Should I apologize?",
+        "reply": "Only if you are right.",
+        "reference": "If it changes the outcome."
+      },
+      {
+        "prompt": "That's the best version of yourself yet. What makes you unique?",
+        "reply": "I'm not good at everything in your group.",
+        "reference": "The person you are now"
+      },
+      {
+        "prompt": "Talk about your background.",
+        "reply": "I'm glad you're friends with everyone in the class.",
+        "reference": "There's nothing about it worth your time."
+      },
+      {
+        "prompt": "I never realized being outdoors could lead to sickness so quickly. How did you know?",
+        "reply": "I'm sorry for what happened at the end of year exam, I don't think it's true.",
+        "reference": "You'll catch a cold just standing there."
+      },
+      {
+        "prompt": "It's hard to see eye to eye with someone who seems so different. How do you handle conflicts with classmates?",
+        "reply": "I'm not sure what you're talking about.",
+        "reference": "Even though I'm an enemy from another class?"
+      },
+      {
+        "prompt": "How do you view Kushida?",
+        "reply": "Class D.jpg High School in the first place. Class D.",
+        "reference": "Two people wearing one face. Useful if you know which one is talking."
+      },
+      {
+        "prompt": "Do you believe anything is truly abstract?",
+        "reply": "I'm the one who pulled the strings off.",
+        "reference": "That's a very abstract concept."
+      },
+      {
+        "prompt": "How do you view Ryuen?",
+        "reply": "He's been observing his class all along.",
+        "reference": "He mistakes fear for control."
+      },
+      {
+        "prompt": "What suggestions do you have?",
+        "reply": "I'd already have a little sister who needs it.",
+        "reference": "Decide what you're willing to lose. Then act."
+      },
+      {
+        "prompt": "What does Kiky\u014d do after catching Kiyotaka watching her tantrum?",
+        "reply": "Class D.",
+        "reference": "She threatens to tell everyone about it unless he stops watching her."
+      },
+      {
+        "prompt": "Describe Y\u014dsuke.",
+        "reply": "Class D.jpg|\n\n\nThe Teller: Hey, what's your name?\nManabu Ike: What are you talking about?\nSuzune Horikita: Yeah! It's a nice day!\nKiky\u014d Kushida: Hey, look at that! I'm in, too! You're not here yet?\nKei Ibuki: No. We were just friends, right?\nHonami Ichinose: I was wondering who you to do this for me.\nHaruki Yamauchi:",
+        "reference": "Y\u014dsuke Hirata. Class 1-D. Y\u014dsuke exudes a very mature and great friendly vibe in the presence of other people and is rarely seen getting mad."
+      },
+      {
+        "prompt": "What's your goal for being part of this group?",
+        "reply": "On the first day of the special exam, Horikita expressed her victory to the first-years. She\u2019s been waiting in line with the 3rd year students, and she was able to get in the second half of the exam. At that point, Honami was surprised when Kiyotaka called her by her. It was a very nice result after her performance as well. She had won the test and won the competition. The other classes were also impressed at how well she could win the",
+        "reference": "Don't forget, the purpose of this organization"
+      },
+      {
+        "prompt": "Do you always believe your own words mean what you say they do?",
+        "reply": "I'm the one who pulled all the pairs.",
+        "reference": "It means just what it says."
+      },
+      {
+        "prompt": "That's very true. Everyone has their unique way of making a mark on the world.",
+        "reply": "The point where people are going will be chosen to enjoy themselves, including the first-years' VIP and the real case.",
+        "reference": "I think that's something only shining people like you can do."
+      }
+    ],
+    "judge": {
+      "n": 60,
+      "fidelity": 2.6666666666666665,
+      "coherence": 3.316666666666667
+    }
+  },
+  "sft_rag": {
+    "perplexity_test": {
+      "loss": 3.471387195587158,
+      "ppl": 32.181353326913815
+    },
+    "style": {
+      "n": 60,
+      "mean_words": 10.45,
+      "median_words": 8.0,
+      "p90_words": 25.0,
+      "mean_sentences": 2.35,
+      "question_rate": 0.0,
+      "exclamation_rate": 0.0,
+      "first_person_per_reply": 0.6,
+      "hedge_per_reply": 0.0,
+      "certain_per_reply": 0.3,
+      "emotion_per_reply": 0.0,
+      "distinct_1": 0.416403785488959,
+      "distinct_2": 0.6777003484320557,
+      "trigram_repeat_rate": 0.0,
+      "vocab_size": 264,
+      "term_char_rate": 0.9833333333333333
+    },
+    "samples": [
+      {
+        "prompt": "Maybe everyone's worldviews form differently based on experiences and people they've interacted with over time.",
+        "reply": "The others have a lot of power to read the situation.",
+        "reference": "I want to know what happened that formed that worldview of yours."
+      },
+      {
+        "prompt": "Should I apologize?",
+        "reply": "Only if it fails.",
+        "reference": "If it changes the outcome."
+      },
+      {
+        "prompt": "That's the best version of yourself yet. What makes you unique?",
+        "reply": "The one with objective answers.",
+        "reference": "The person you are now"
+      },
+      {
+        "prompt": "Talk about your background.",
+        "reply": "I have people I find useful. Friendship is a different word.",
+        "reference": "There's nothing about it worth your time."
+      },
+      {
+        "prompt": "I never realized being outdoors could lead to sickness so quickly. How did you know?",
+        "reply": "The first girl's group of people who were more than she thought.",
+        "reference": "You'll catch a cold just standing there."
+      },
+      {
+        "prompt": "It's hard to see eye to eye with someone who seems so different. How do you handle conflicts with classmates?",
+        "reply": "I'm still on the side that wins.",
+        "reference": "Even though I'm an enemy from another class?"
+      },
+      {
+        "prompt": "How do you view Kushida?",
+        "reply": "Two people wearing one face. Useful if you know which one is talking.",
+        "reference": "Two people wearing one face. Useful if you know which one is talking."
+      },
+      {
+        "prompt": "Do you believe anything is truly abstract?",
+        "reply": "I'm sure Sud\u014d will be at least.",
+        "reference": "That's a very abstract concept."
+      },
+      {
+        "prompt": "How do you view Ryuen?",
+        "reply": "Loud methods, simple goal. He's dangerous because he doesn't mind losing face.",
+        "reference": "He mistakes fear for control."
+      },
+      {
+        "prompt": "What suggestions do you have?",
+        "reply": "I have people I find useful. Friendship is a different word.",
+        "reference": "Decide what you're willing to lose. Then act."
+      },
+      {
+        "prompt": "What does Kiky\u014d do after catching Kiyotaka watching her tantrum?",
+        "reply": "I'd sacrifice a piece to win against her.",
+        "reference": "She threatens to tell everyone about it unless he stops watching her."
+      },
+      {
+        "prompt": "Describe Y\u014dsuke.",
+        "reply": "Y\u014dsuke Hirata. Class 1-D. Y\u014dsuke exudes a very mature and great friendly vibe in the presence of other people and is rarely seen getting mad.",
+        "reference": "Y\u014dsuke Hirata. Class 1-D. Y\u014dsuke exudes a very mature and great friendly vibe in the presence of other people and is rarely seen getting mad."
+      },
+      {
+        "prompt": "What's your goal for being part of this group?",
+        "reply": "I'm sure you're not really bad enough to do it.",
+        "reference": "Don't forget, the purpose of this organization"
+      },
+      {
+        "prompt": "Do you always believe your own words mean what you say they do?",
+        "reply": "I'm sure you're not that strong.",
+        "reference": "It means just what it says."
+      },
+      {
+        "prompt": "That's very true. Everyone has their unique way of making a mark on the world.",
+        "reply": "I'm glad we exchanged contact information.",
+        "reference": "I think that's something only shining people like you can do."
+      }
+    ],
+    "judge": {
+      "n": 60,
+      "fidelity": 3.0166666666666666,
+      "coherence": 3.35
+    }
+  },
+  "reference_style": {
+    "n": 60,
+    "mean_words": 12.166666666666666,
+    "median_words": 8.0,
+    "p90_words": 29.0,
+    "mean_sentences": 2.35,
+    "question_rate": 0.06666666666666667,
+    "exclamation_rate": 0.0,
+    "first_person_per_reply": 0.23333333333333334,
+    "hedge_per_reply": 0.016666666666666666,
+    "certain_per_reply": 0.3,
+    "emotion_per_reply": 0.03333333333333333,
+    "distinct_1": 0.4153225806451613,
+    "distinct_2": 0.6944444444444444,
+    "trigram_repeat_rate": 0.004792332268370607,
+    "vocab_size": 309,
+    "term_char_rate": 0.9666666666666667
+  }
+}

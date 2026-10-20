@@ -1,0 +1,18 @@
+{
+  "stage": "domain_pretrain_56m",
+  "data": "data/processed/domain_v2_all.bin",
+  "val_data": "data/processed/domain_v2_val.bin",
+  "init": "checkpoints/pretrain_56m/best.pt",
+  "steps": 600,
+  "batch_size": 8,
+  "grad_accum": 4,
+  "block_size": 512,
+  "dropout": 0.1,
+  "lr": 1e-4,
+  "min_lr": 1e-5,
+  "warmup": 60,
+  "weight_decay": 0.1,
+  "eval_interval": 50,
+  "eval_iters": 20,
+  "save_interval": 200
+}

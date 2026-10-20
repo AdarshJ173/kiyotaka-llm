@@ -1,0 +1,15 @@
+{
+  "stage": "character_sft",
+  "train": "data/processed/sft_train.jsonl",
+  "val": "data/processed/sft_val.jsonl",
+  "epochs": 4,
+  "batch_size": 16,
+  "grad_accum": 1,
+  "max_len": 256,
+  "dropout": 0.05,
+  "lr": 4e-4,
+  "min_lr": 4e-5,
+  "warmup": 30,
+  "weight_decay": 0.05,
+  "replay_interval": 10
+}

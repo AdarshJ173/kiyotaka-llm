@@ -1,0 +1,46 @@
+{
+  "checkpoint": "checkpoints/sft_56m/best.pt",
+  "torch": "2.11.0+cu128",
+  "gpu": {
+    "device": "cuda",
+    "params": 51950720,
+    "runs": {
+      "batch1": {
+        "prefill_ms": 6.442455999604135,
+        "decode_total_s": 0.23082347800027492,
+        "decode_tokens_per_s": 277.26815553798986,
+        "ms_per_token": 3.6066168437542956
+      },
+      "batch4": {
+        "prefill_ms": 6.650817000263487,
+        "decode_total_s": 0.23981613599971752,
+        "decode_tokens_per_s": 1067.4844665177222,
+        "ms_per_token": 3.747127124995586
+      },
+      "batch8": {
+        "prefill_ms": 11.009527000169328,
+        "decode_total_s": 0.27130055900033767,
+        "decode_tokens_per_s": 1887.2058424301395,
+        "ms_per_token": 4.239071234380276
+      }
+    },
+    "vram_allocated_mb": 275.1630859375,
+    "vram_reserved_mb": 444.0
+  },
+  "cpu": {
+    "device": "cpu",
+    "params": 51950720,
+    "runs": {
+      "batch1": {
+        "prefill_ms": 25.653014999988955,
+        "decode_total_s": 0.33934898900042754,
+        "decode_tokens_per_s": 94.29820343434022,
+        "ms_per_token": 10.60465590626336
+      }
+    }
+  },
+  "cpu_int8": {
+    "decode_tokens_per_s": 322.3142128230762,
+    "weight_mb": 20.05126953125
+  }
+}
